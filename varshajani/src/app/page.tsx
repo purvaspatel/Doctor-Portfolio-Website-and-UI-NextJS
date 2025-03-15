@@ -55,7 +55,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-3 text-sage-600 text-xl md:text-2xl font-playfair font-semibold">
             <Image src="/assets/logo.png" alt="Ayurveda Logo" width={40} height={40} className="w-8 h-8 md:w-10 md:h-10" />
-            <span>AYURVEDA WELLNESS</span>
+            <span className="text-[#171717]">AYURVEDA WELLNESS</span>
           </div>
           <div className="hidden md:flex space-x-8 text-neutral-700 text-sm font-lato">
             <button onClick={() => scrollToSection(homeRef)} className="hover:text-sage-600 transition duration-300">HOME</button>
@@ -95,8 +95,8 @@ export default function Home() {
               YOUR AYURVEDIC JOURNEY STARTS HERE
             </p>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-medium mb-4">
-              The <span className="text-amber-500">Transformative</span><br />
-              Power Of Ayurveda
+              <span className='text-[#171717]'>The </span><span className="text-amber-500">Transformative</span><br />
+              <span className='text-[#171717]'>Power Of Ayurveda</span>
             </h1>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-medium mb-6">
               <span className="text-amber-500">Dr. Varsha Jani</span>
@@ -108,7 +108,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
               <button
                 onClick={() => scrollToSection(contactRef)}
-                className="bg-[#e8ede1] hover:bg-[#d1dbc4] text-sage-700 px-6 py-3 rounded-md inline-flex items-center justify-center transition duration-300 font-lato"
+                className="bg-[#e8ede1] hover:bg-[#d1dbc4] text-[#171717] px-6 py-3 rounded-md inline-flex items-center justify-center transition duration-300 font-lato"
               >
                 BOOK A CONSULT
               </button>
@@ -156,7 +156,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-2">
+            <h2 className="text-2xl md:text-3xl text-[#171717] lg:text-4xl font-playfair mb-2">
               Personalized Ayurvedic &<br />
               Wellness Counseling
             </h2>
@@ -217,7 +217,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm uppercase tracking-wider text-neutral-600 mb-2 font-lato">
               HOLISTIC AYURVEDIC SERVICES
             </p>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-playfair mb-6">
+            <h2 className="text-[#171717] text-2xl sm:text-3xl md:text-4xl font-playfair mb-6">
               How We Can Help
             </h2>
             <p className="text-neutral-700 font-lato">
@@ -239,8 +239,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <p className="text-sm uppercase tracking-wider text-neutral-600 mb-2 text-center font-lato">READ THE SUCCESS STORIES</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-8 md:mb-12 text-center">
-            <span className="text-amber-500">Kind Words</span> From<br />
-            Our Past Clients
+            <span className="text-amber-500">Kind Words</span> <span className='text-[#171717]'>From</span><br />
+            <span className='text-[#171717]'>Our Past Clients</span>
           </h2>
           <p className="text-neutral-700 max-w-3xl mx-auto text-center mb-8 md:mb-12 font-lato">
             We are committed to empowering individuals on their journey to optimal health through evidence-based Ayurvedic expertise and support.
@@ -294,12 +294,12 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-8 space-x-2">
-            <button className="w-8 h-8 rounded-full bg-[#e8ede1] hover:bg-[#d1dbc4] text-sage-600 flex items-center justify-center transition duration-300">
+            <button className="w-8 h-8 rounded-full bg-[#e8ede1] hover:bg-[#d1dbc4] text-[#171717] flex items-center justify-center transition duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
               </svg>
             </button>
-            <button className="w-8 h-8 rounded-full bg-[#e8ede1] hover:bg-[#d1dbc4] text-sage-600 flex items-center justify-center transition duration-300">
+            <button className="w-8 h-8 rounded-full bg-[#e8ede1] hover:bg-[#d1dbc4] text-[#171717] flex items-center justify-center transition duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
               </svg>
@@ -313,20 +313,20 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <p className="text-sm uppercase tracking-wider text-neutral-600 mb-2 text-center font-lato">WITHIN OUR INDIVIDUAL CONSULTATIONS, WE COVER A WIDE RANGE OF TOPICS</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-6 text-center">
-            From meal planning and mindful eating<br className="hidden md:block" />
-            to <span className="text-amber-500">Ayurvedic strategies</span> for stress<br className="hidden md:block" />
-            management and disease prevention
+            <span className='text-[#171717]'>From meal planning and mindful eating</span><br className="hidden md:block" />
+            to <span className="text-amber-500">Ayurvedic strategies</span> <span className='text-[#171717]'>for stress</span><br className="hidden md:block" />
+            <span className='text-[#171717]'>management and disease prevention</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-12">
             {/* Service 1 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-sage-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#171717]">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-3 font-playfair">Dosha Assessment</h3>
+              <h3 className="text-[#171717] text-xl font-medium mb-3 font-playfair">Dosha Assessment</h3>
               <p className="text-neutral-700 font-lato">
                 Discover your unique Ayurvedic constitution and learn how to maintain balance for optimal health.
               </p>
@@ -335,11 +335,11 @@ export default function Home() {
             {/* Service 2 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-sage-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#171717]">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-3 font-playfair">Herbal Treatments</h3>
+              <h3 className="text-[#171717] text-xl font-medium mb-3 font-playfair">Herbal Treatments</h3>
               <p className="text-neutral-700 font-lato">
                 Personalized herbal remedies and supplements based on ancient Ayurvedic wisdom adapted to your needs.
               </p>
@@ -348,11 +348,11 @@ export default function Home() {
             {/* Service 3 */}
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-sage-600">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-[#171717]">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-medium mb-3 font-playfair">Lifestyle Counseling</h3>
+              <h3 className="text-[#171717] text-xl font-medium mb-3 font-playfair">Lifestyle Counseling</h3>
               <p className="text-neutral-700 font-lato">
                 Guidance on daily routines, sleep patterns, and stress management techniques aligned with Ayurvedic principles.
               </p>
@@ -362,7 +362,7 @@ export default function Home() {
           <div className="text-center mt-8 md:mt-12">
             <button
               onClick={() => scrollToSection(contactRef)}
-              className="bg-[#e8ede1] hover:bg-[#d1dbc4] text-sage-700 px-6 md:px-8 py-3 md:py-4 rounded-md inline-flex items-center justify-center transition duration-300 font-lato"
+              className="bg-[#e8ede1] hover:bg-[#d1dbc4] text-[#171717] px-6 md:px-8 py-3 md:py-4 rounded-md inline-flex items-center justify-center transition duration-300 font-lato"
             >
               EXPLORE ALL SERVICES
               <FaArrowRight className="ml-2" />
@@ -390,7 +390,7 @@ export default function Home() {
 
             {/* Contact Info */}
             <div>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-6">Visit Our Wellness Center</h2>
+              <h2 className="text-[#171717] text-2xl md:text-3xl lg:text-4xl font-playfair mb-6">Visit Our Wellness Center</h2>
               <p className="text-neutral-700 mb-8 font-lato">
                 We invite you to experience the transformative power of Ayurveda in our peaceful and welcoming wellness center. Schedule a consultation today to begin your journey toward balanced, sustainable wellness.
               </p>
@@ -401,7 +401,7 @@ export default function Home() {
                     <FaMapMarkerAlt className="text-sage-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-medium mb-1 font-playfair">Our Location</h3>
+                    <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Our Location</h3>
                     <p className="text-neutral-700 font-lato">Shyamal, Ahmedabad, Gujarat 380015
                     </p>
                   </div>
@@ -412,7 +412,7 @@ export default function Home() {
                     <FaPhone className="text-sage-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-medium mb-1 font-playfair">Phone Number</h3>
+                    <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Phone Number</h3>
                     <p className="text-neutral-700 font-lato">(xxx) 0000000000</p>
                   </div>
                 </div>
@@ -422,7 +422,7 @@ export default function Home() {
                     <FaEnvelope className="text-sage-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-medium mb-1 font-playfair">Email Address</h3>
+                    <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Email Address</h3>
                     <p className="text-neutral-700 font-lato">info@ayurvedawellness.com</p>
                   </div>
                 </div>
