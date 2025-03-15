@@ -119,7 +119,7 @@ export default function Home() {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto">
               <Image
-                src="/assets/main.jpg"
+                src="/assets/main.jpeg"
                 alt="Ayurvedic Doctor"
                 width={500}
                 height={600}
