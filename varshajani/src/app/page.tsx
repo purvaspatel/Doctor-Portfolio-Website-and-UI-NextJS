@@ -313,10 +313,22 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <p className="text-sm uppercase tracking-wider text-neutral-600 mb-2 text-center font-lato">WITHIN OUR INDIVIDUAL CONSULTATIONS, WE COVER A WIDE RANGE OF TOPICS</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-6 text-center">
-            <span className='text-[#171717]'>From meal planning and mindful eating to</span><br className="hidden md:block" />
-             <span className="text-amber-500">Ayurvedic strategies</span> <span className='text-[#171717]'>for stress</span><br className="hidden md:block" />
-            <span className='text-[#171717]'>management and disease prevention</span>
+            <span className='text-[#171717]'>
+              From meal planning and mindful eating to
+            </span>
+            <br className="hidden md:block" />
+            <span className="text-amber-500 whitespace-nowrap ml-1 md:ml-0">
+              Ayurvedic strategies
+            </span>
+            <span className='text-[#171717]'>
+              {' '}for stress
+            </span>
+            <br className="hidden md:block" />
+            <span className='text-[#171717]'>
+              management and disease prevention
+            </span>
           </h2>
+
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-8 md:mt-12">
             {/* Service 1 */}
