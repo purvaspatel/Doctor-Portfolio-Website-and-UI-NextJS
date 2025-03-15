@@ -23,23 +23,25 @@ const lato = Lato({
 
 export default function Home() {
   // Create refs for each section
-  const homeRef = useRef(null);
-  const aboutRef = useRef(null);
-  const servicesRef = useRef(null);
-  const contactRef = useRef(null);
+  const homeRef = useRef<HTMLElement | null>(null);
+  const aboutRef = useRef<HTMLElement | null>(null);
+  const servicesRef = useRef<HTMLElement | null>(null);
+  const contactRef = useRef<HTMLElement | null>(null);
 
   // State for mobile menu
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
   // Scroll to section function
-  const scrollToSection = (ref) => {
-    if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+  const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
+    if (ref?.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
       setMobileMenuOpen(false); // Close mobile menu after clicking
     }
   };
 
+
   return (
+
     <div className={`${playfair.variable} ${lato.variable} font-sans min-h-screen bg-neutral-50`}>
       <Head>
         <title>Ayurveda Wellness | Personalized Ayurvedic Healing</title>
