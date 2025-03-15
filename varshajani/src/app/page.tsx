@@ -313,8 +313,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <p className="text-sm uppercase tracking-wider text-neutral-600 mb-2 text-center font-lato">WITHIN OUR INDIVIDUAL CONSULTATIONS, WE COVER A WIDE RANGE OF TOPICS</p>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair mb-6 text-center">
-            <span className='text-[#171717]'>From meal planning and mindful eating</span><br className="hidden md:block" />
-            to <span className="text-amber-500">Ayurvedic strategies</span> <span className='text-[#171717]'>for stress</span><br className="hidden md:block" />
+            <span className='text-[#171717]'>From meal planning and mindful eating to</span><br className="hidden md:block" />
+             <span className="text-amber-500">Ayurvedic strategies</span> <span className='text-[#171717]'>for stress</span><br className="hidden md:block" />
             <span className='text-[#171717]'>management and disease prevention</span>
           </h2>
 
@@ -398,7 +398,7 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                    <FaMapMarkerAlt className="text-sage-600" />
+                    <FaMapMarkerAlt className="text-[#171717]" />
                   </div>
                   <div>
                     <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Our Location</h3>
@@ -409,7 +409,7 @@ export default function Home() {
 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                    <FaPhone className="text-sage-600" />
+                    <FaPhone className="text-[#171717]" />
                   </div>
                   <div>
                     <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Phone Number</h3>
@@ -419,7 +419,7 @@ export default function Home() {
 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-[#e8ede1] rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                    <FaEnvelope className="text-sage-600" />
+                    <FaEnvelope className="text-[#171717]" />
                   </div>
                   <div>
                     <h3 className="text-[#171717] text-xl font-medium mb-1 font-playfair">Email Address</h3>
