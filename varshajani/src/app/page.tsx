@@ -378,7 +378,7 @@ export default function Home() {
             {/* Map */}
             <div className="h-64 sm:h-80 md:h-96 bg-neutral-200 rounded-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215277301196!2d-73.9864090843076!3d40.748440979327535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9aeb1c6b5%3A0x35b1cfbc89a6097f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1647358023080!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.718239170473!2d72.52355337597483!3d22.543434979548537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d638c4679f%3A0x21c2a193936cbccb!2sShyamal%20Cross%20Rd%2C%20Shyamal%2C%20Ahmedabad%2C%20Gujarat%20380015!5e0!3m2!1sen!2sin!4v1710489512345"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -402,7 +402,8 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1 font-playfair">Our Location</h3>
-                    <p className="text-neutral-700 font-lato">350 Fifth Avenue, New York, NY 10118</p>
+                    <p className="text-neutral-700 font-lato">Shyamal, Ahmedabad, Gujarat 380015
+                    </p>
                   </div>
                 </div>
 
@@ -412,7 +413,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-xl font-medium mb-1 font-playfair">Phone Number</h3>
-                    <p className="text-neutral-700 font-lato">(212) 555-1234</p>
+                    <p className="text-neutral-700 font-lato">(xxx) 0000000000</p>
                   </div>
                 </div>
 
